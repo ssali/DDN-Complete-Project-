@@ -30,7 +30,8 @@ namespace Mezeo
             syncmanager = manager;
             dbHandler = new DbHandler();
             ClearInfoLabels();
-
+            LoadResources();
+            
             cMezeoFileCloud = mezeoFileCloud;
         }
 

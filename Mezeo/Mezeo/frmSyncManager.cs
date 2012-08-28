@@ -1546,6 +1546,7 @@ namespace Mezeo
 
         private void LoadResources()
         {
+            this.Icon = global::Mezeo.Properties.Resources.MezeoVault;
             this.Text = global::Mezeo.Properties.Resources.BrSyncManagerTitle; 
             this.lblFolder.Text = LanguageTranslator.GetValue("SyncManagerFolderLabel");
             this.lblStatus.Text = LanguageTranslator.GetValue("SyncManagerStatusLabel");
