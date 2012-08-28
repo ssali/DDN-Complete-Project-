@@ -358,7 +358,7 @@ namespace Mezeo
 
         private void btnEventViewer_Click(object sender, EventArgs e)
         {
-            bool bRet = cMezeoFileCloud.ExceuteEventViewer(AboutBox.AssemblyTitle);
+            bool bRet = cMezeoFileCloud.ExceuteEventViewer(global::Mezeo.Properties.Resources.BrSyncManagerTitle);
         }
 
         private void lnkHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -434,7 +434,7 @@ namespace Mezeo
 
         private void LoadResources()
         {
-            this.Text = AboutBox.AssemblyTitle; 
+            this.Text = global::Mezeo.Properties.Resources.BrSyncManagerTitle; 
             lblHeader.Text = LanguageTranslator.GetValue("IssuesHeader");
             btnEventViewer.Text = LanguageTranslator.GetValue("IssuesEventViewerButtonText");
             btnIgnoreConflict.Text = LanguageTranslator.GetValue("IssuesIgnoreConflictButtonText");

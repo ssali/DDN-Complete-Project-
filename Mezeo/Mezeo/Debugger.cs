@@ -19,7 +19,7 @@ namespace Mezeo
                 if (calssInstance == null)
                 {
                     calssInstance = new Debugger();
-                    debugFile = new FileStream(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\" + AboutBox.AssemblyTitle + "\\" + AboutBox.AssemblyTitle  + ".log", FileMode.Append, FileAccess.Write);
+                    debugFile = new FileStream(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\" + global::Mezeo.Properties.Resources.BrSyncManagerTitle + "\\" + global::Mezeo.Properties.Resources.BrSyncManagerTitle + ".log", FileMode.Append, FileAccess.Write);
                 }
 
                 return calssInstance;

@@ -104,7 +104,7 @@ namespace Mezeo
 
             if (syncManager != null && (syncManager.IsSyncThreadInProgress()))
             {
-                DialogResult dResult = MessageBox.Show(LanguageTranslator.GetValue("MezeoExitString1") + "\n" + LanguageTranslator.GetValue("MezeoExitString2"), AboutBox.AssemblyTitle, MessageBoxButtons.OKCancel);
+                DialogResult dResult = MessageBox.Show(LanguageTranslator.GetValue("MezeoExitString1") + "\n" + LanguageTranslator.GetValue("MezeoExitString2"), global::Mezeo.Properties.Resources.BrSyncManagerTitle, MessageBoxButtons.OKCancel);
                 if (dResult == DialogResult.Cancel)
                     return;
                     
@@ -586,7 +586,7 @@ namespace Mezeo
             bool isDirectoryExists = false;
             if (BasicInfo.SyncDirPath.Trim().Length != 0)
                 isDirectoryExists = System.IO.Directory.Exists(BasicInfo.SyncDirPath);
-            string dirName = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\" + AboutBox.AssemblyTitle;
+            string dirName = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\" + global::Mezeo.Properties.Resources.BrSyncManagerTitle;
 
             //Modified code to fixed issue # 1417 Checking first is directory exists or not
             if (!isDirectoryExists)
@@ -710,7 +710,7 @@ namespace Mezeo
         {
             // See what version ran last.
             string strCurVersion = Assembly.GetExecutingAssembly().GetName().Version.ToString();
-            string dirName = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\" + AboutBox.AssemblyTitle;
+            string dirName = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\" + global::Mezeo.Properties.Resources.BrSyncManagerTitle;
 
             // If this is a newer version, handle any update logic.
             if (0 != strCurVersion.CompareTo(BasicInfo.LastExecutedVersion))
@@ -730,7 +730,7 @@ namespace Mezeo
             // Add the folder to the IE Favorites.
             // Call Environment.GetFolderPath() to get the full path to "Favourites".
             // Add on the folder name and .lnk file extension.
-            string favorites = Environment.GetFolderPath(Environment.SpecialFolder.Favorites) + "\\" + AboutBox.AssemblyTitle + ".lnk";
+            string favorites = Environment.GetFolderPath(Environment.SpecialFolder.Favorites) + "\\" + global::Mezeo.Properties.Resources.BrSyncManagerTitle + ".lnk";
             favorites = favorites.Replace("Favorites", "Links");
             FileInfo LinkFile = new FileInfo(favorites);
 

@@ -116,7 +116,7 @@ namespace Mezeo
 
         private void LoadResources()
         {
-            this.Text = String.Format("About {0}", AssemblyTitle);
+            this.Text = String.Format("About {0}", global::Mezeo.Properties.Resources.BrSyncManagerTitle);
             //This will show Assembly Title
 
             this.labelProductName.Text = global::Mezeo.Properties.Resources.BrSyncManagerTitle;

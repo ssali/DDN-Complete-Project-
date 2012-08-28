@@ -87,7 +87,7 @@ namespace Mezeo
         public bool CreatedNewDatabase()
         {
             SQLiteConnection sqlConnection;
-            string dbPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\" + AboutBox.AssemblyTitle + "\\";
+            string dbPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\" + global::Mezeo.Properties.Resources.BrSyncManagerTitle + "\\";
 
             bool createNew = false;
 
@@ -112,7 +112,7 @@ namespace Mezeo
         public SQLiteConnection OpenConnection()
         {
             SQLiteConnection sqlConnection = null;
-            string dbPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\" + AboutBox.AssemblyTitle + "\\";
+            string dbPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\" + global::Mezeo.Properties.Resources.BrSyncManagerTitle + "\\";
             
             int nRetries = 0;
             while (nRetries < 3)
@@ -138,7 +138,7 @@ namespace Mezeo
 
         public void DeleteDb()
         {
-            string dbPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\" + AboutBox.AssemblyTitle + "\\";
+            string dbPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\" + global::Mezeo.Properties.Resources.BrSyncManagerTitle + "\\";
 
             // Make sure all of the connections are closed.
             //if(sqlConnection != null)

@@ -457,7 +457,7 @@ namespace Mezeo
                 {
                      if (IsInIdleState() && !CanNotTalkToServer())
                      {
-                        this.Text = AboutBox.AssemblyTitle;
+                        this.Text = global::Mezeo.Properties.Resources.BrSyncManagerTitle;
                         this.lblFolder.Text = LanguageTranslator.GetValue("SyncManagerFolderLabel");
                         this.lblStatus.Text = LanguageTranslator.GetValue("SyncManagerStatusLabel");
                         this.lblUsage.Text = LanguageTranslator.GetValue("SyncManagerUsageLabel");
@@ -515,7 +515,7 @@ namespace Mezeo
             {
                 if (IsInIdleState() && !CanNotTalkToServer())
                 {
-                    this.Text = AboutBox.AssemblyTitle;
+                    this.Text = global::Mezeo.Properties.Resources.BrSyncManagerTitle;
                     this.lblFolder.Text = LanguageTranslator.GetValue("SyncManagerFolderLabel");
                     this.lblStatus.Text = LanguageTranslator.GetValue("SyncManagerStatusLabel");
                     this.lblUsage.Text = LanguageTranslator.GetValue("SyncManagerUsageLabel");
@@ -1546,7 +1546,7 @@ namespace Mezeo
 
         private void LoadResources()
         {
-            this.Text = AboutBox.AssemblyTitle; 
+            this.Text = global::Mezeo.Properties.Resources.BrSyncManagerTitle; 
             this.lblFolder.Text = LanguageTranslator.GetValue("SyncManagerFolderLabel");
             this.lblStatus.Text = LanguageTranslator.GetValue("SyncManagerStatusLabel");
             this.lblUsage.Text = LanguageTranslator.GetValue("SyncManagerUsageLabel");
@@ -4503,7 +4503,7 @@ namespace Mezeo
                         if (string.IsNullOrEmpty(fileName))
                             syncPath = "";
                         else
-                            syncPath = AboutBox.AssemblyTitle + "\\" + fileName.Substring(BasicInfo.SyncDirPath.Length + 1);
+                            syncPath = global::Mezeo.Properties.Resources.BrSyncManagerTitle + "\\" + fileName.Substring(BasicInfo.SyncDirPath.Length + 1);
 
                         lblStatusL3.Text = syncPath;
                         pbScale = 1;
@@ -4538,7 +4538,7 @@ namespace Mezeo
                     if (string.IsNullOrEmpty(fileName))
                         syncPath = "";
                     else
-                        syncPath = AboutBox.AssemblyTitle + "\\" + fileName.Substring(BasicInfo.SyncDirPath.Length + 1);
+                        syncPath = global::Mezeo.Properties.Resources.BrSyncManagerTitle + "\\" + fileName.Substring(BasicInfo.SyncDirPath.Length + 1);
 
                     lblStatusL3.Text = syncPath;
 

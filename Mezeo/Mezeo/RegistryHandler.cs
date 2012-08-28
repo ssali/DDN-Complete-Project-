@@ -18,7 +18,7 @@ namespace Mezeo
             set { showError = value; }
         }
 
-        private string subKey = "SOFTWARE\\" + AboutBox.AssemblyTitle + "\\Basic Info";
+        private string subKey = "SOFTWARE\\" + global::Mezeo.Properties.Resources.BrSyncManagerTitle + "\\Basic Info";
         public string SubKey
         {
             get { return subKey; }
