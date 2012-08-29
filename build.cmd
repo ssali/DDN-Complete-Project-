@@ -51,7 +51,9 @@ rd /s /q "%rootPath%\Mezeo\Mezeo\bin\Release"
 if /i not "%buildmode%"=="clean" (
 xcopy "%rootPath%\Mezeo File API Wrapper For C#.Net\MezeoFileSupport\bin\Release\SupportFile.dll" "%rootPath%\Mezeo File API Wrapper For C#.Net\Mezeo File Installer\*.*" /cry
 if errorlevel 1 goto :eof
-xcopy "%rootPath%\Mezeo File API Wrapper For C#.Net\MezeoFileRmvFile\Release\MezeoFileRmml.exe" "%rootPath%\Mezeo File API Wrapper For C#.Net\Mezeo File Installer\*.*" /cry
+rem xcopy "%rootPath%\Mezeo File API Wrapper For C#.Net\MezeoFileRmvFile\Release\MezeoFileRmml.exe" "%rootPath%\Mezeo File API Wrapper For C#.Net\Mezeo File Installer\*.*" /cry
+rem if errorlevel 1 goto :eof
+xcopy "%rootPath%\Mezeo File API Wrapper For C#.Net\MezeoFileRmvFile\Release\FileRmml.exe" "%rootPath%\Mezeo File API Wrapper For C#.Net\Mezeo File Installer\*.*" /cry
 if errorlevel 1 goto :eof
 xcopy "%rootPath%\Mezeo\Mezeo\bin\Release\MezeoFile.exe" "%rootPath%\Mezeo File API Wrapper For C#.Net\Mezeo File Installer\*.*" /cry
 if errorlevel 1 goto :eof
@@ -99,7 +101,9 @@ rd /s /q "%rootPath%\Mezeo\Mezeo\bin\x64\Release"
 if /i not "%buildmode%"=="clean" (
 xcopy "%rootPath%\Mezeo File API Wrapper For C#.Net\MezeoFileSupport\bin\Release\SupportFile.dll" "%rootPath%\Mezeo File API Wrapper For x64\Mezeo File Sync _ 64\*.*" /cry
 if errorlevel 1 goto :eof
-xcopy "%rootPath%\Mezeo File API Wrapper For C#.Net\MezeoFileRmvFile\Release\MezeoFileRmml.exe" "%rootPath%\Mezeo File API Wrapper For x64\Mezeo File Sync _ 64\*.*" /cry
+rem xcopy "%rootPath%\Mezeo File API Wrapper For C#.Net\MezeoFileRmvFile\Release\MezeoFileRmml.exe" "%rootPath%\Mezeo File API Wrapper For x64\Mezeo File Sync _ 64\*.*" /cry
+rem if errorlevel 1 goto :eof
+xcopy "%rootPath%\Mezeo File API Wrapper For C#.Net\MezeoFileRmvFile\Release\FileRmml.exe" "%rootPath%\Mezeo File API Wrapper For x64\Mezeo File Sync _ 64\*.*" /cry
 if errorlevel 1 goto :eof
 xcopy "%rootPath%\Mezeo\Mezeo\bin\x64\Release\MezeoFile.exe" "%rootPath%\Mezeo File API Wrapper For x64\Mezeo File Sync _ 64\*.*" /cry
 if errorlevel 1 goto :eof
