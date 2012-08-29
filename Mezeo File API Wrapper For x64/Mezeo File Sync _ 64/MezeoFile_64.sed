@@ -2,6 +2,7 @@
 Class=IEXPRESS
 SEDVersion=3
 [Options]
+VersionInfo=VersionSection
 PackagePurpose=InstallApp
 ShowInstallProgramWindow=1
 HideExtractAnimation=1
@@ -20,10 +21,26 @@ PostInstallCmd=%PostInstallCmd%
 AdminQuietInstCmd=%AdminQuietInstCmd%
 UserQuietInstCmd=%UserQuietInstCmd%
 SourceFiles=SourceFiles
+[VersionSection]
+FromFile="MezeoFile.exe"
+Internalname=MezeoFile_64.msi
+OriginalFilename=MezeoFile_64.msi
+Fileversion=%Fileversion%
+FileDescription=%FileDescription%
+CompanyName=%CompanyName%
+ProductName=%ProductName%
+ProductVersion=%ProductVersion%
+LegalCopyright=%LegalCopyright%
 [Strings]
 InstallPrompt=
 DisplayLicense=
 FinishMessage=
+Fileversion=
+FileDescription=
+CompanyName=
+ProductName=
+ProductVersion=
+LegalCopyright=
 TargetName=.\Release\MezeoFile_64.exe
 FriendlyName=Mezeo Windows Sync
 AppLaunched=cmd.exe /c setup.cmd
