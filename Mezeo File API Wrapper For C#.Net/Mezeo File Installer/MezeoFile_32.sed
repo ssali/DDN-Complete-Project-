@@ -50,7 +50,7 @@ UserQuietInstCmd=
 FILE0="MezeoFile_32.msi"
 FILE1="setup.exe"
 FILE2="setup.cmd"
-FILE3="MezeoPostInstallLauncher.exe"
+FILE3="PostInstallLauncher.exe"
 [SourceFiles]
 SourceFiles0=.\Release\
 SourceFiles1=.\
