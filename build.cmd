@@ -57,7 +57,7 @@ xcopy "%rootPath%\Mezeo File API Wrapper For C#.Net\MezeoFileRmvFile\Release\Fil
 if errorlevel 1 goto :eof
 xcopy "%rootPath%\Mezeo\Mezeo\bin\Release\MezeoFile.exe" "%rootPath%\Mezeo File API Wrapper For C#.Net\Mezeo File Installer\*.*" /cry
 if errorlevel 1 goto :eof
-xcopy "%rootPath%\MezeoPostInstallLauncher\MezeoPostInstallLauncher\bin\Release\MezeoPostInstallLauncher.exe" "%rootPath%\Mezeo File API Wrapper For C#.Net\Mezeo File Installer\*.*" /cry
+xcopy "%rootPath%\MezeoPostInstallLauncher\MezeoPostInstallLauncher\bin\Release\PostInstallLauncher.exe" "%rootPath%\Mezeo File API Wrapper For C#.Net\Mezeo File Installer\*.*" /cry
 if errorlevel 1 goto :eof
 )
 @echo Manually change the ProductVersion and ProductCode values in the project. TODO: find a way to automatically set this.
@@ -107,7 +107,7 @@ xcopy "%rootPath%\Mezeo File API Wrapper For C#.Net\MezeoFileRmvFile\Release\Fil
 if errorlevel 1 goto :eof
 xcopy "%rootPath%\Mezeo\Mezeo\bin\x64\Release\MezeoFile.exe" "%rootPath%\Mezeo File API Wrapper For x64\Mezeo File Sync _ 64\*.*" /cry
 if errorlevel 1 goto :eof
-xcopy "%rootPath%\MezeoPostInstallLauncher\MezeoPostInstallLauncher\bin\Release\MezeoPostInstallLauncher.exe" "%rootPath%\Mezeo File API Wrapper For x64\Mezeo File Sync _ 64\*.*" /cry
+xcopy "%rootPath%\MezeoPostInstallLauncher\MezeoPostInstallLauncher\bin\Release\PostInstallLauncher.exe" "%rootPath%\Mezeo File API Wrapper For x64\Mezeo File Sync _ 64\*.*" /cry
 if errorlevel 1 goto :eof
 )
 @echo Manually change the ProductVersion and ProductCode values in the project. TODO: find a way to automatically set this.
