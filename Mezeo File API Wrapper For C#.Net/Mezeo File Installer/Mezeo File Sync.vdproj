@@ -124,37 +124,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DFF7F401643C436EB485570961CD88CC"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_35EA35284842DDA0D99AAAFB9C22759B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A6C4E9121F206AFC7E8F4E30DC0537D9"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_87B734447C66765A753FAF56B4F56D5A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_80AEB2175624022C18FA6604E93128EE"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E66B53928F3AEA50BBBDD301CEA24A14"
+        "OwnerKey" = "8:_3AEDD2ECD67F4B769BA42FC5F2A56D2A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -166,7 +136,37 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3AEDD2ECD67F4B769BA42FC5F2A56D2A"
+        "OwnerKey" = "8:_E66B53928F3AEA50BBBDD301CEA24A14"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_80AEB2175624022C18FA6604E93128EE"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_87B734447C66765A753FAF56B4F56D5A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_A6C4E9121F206AFC7E8F4E30DC0537D9"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_35EA35284842DDA0D99AAAFB9C22759B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_DFF7F401643C436EB485570961CD88CC"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -272,7 +272,7 @@
             "Object" = "8:_CD459702BAD64B54A4635AAD103229E4"
             "FileType" = "3:2"
             "InstallAction" = "3:4"
-            "Arguments" = "8:/Uninstall"
+            "Arguments" = "8:-tcsmnt"
             "EntryPoint" = "8:"
             "Sequence" = "3:3"
             "Identifier" = "8:_983202B5_AB3C_47F5_91C6_0140BCEAC0C9"
@@ -286,7 +286,7 @@
             "Object" = "8:_CD459702BAD64B54A4635AAD103229E4"
             "FileType" = "3:2"
             "InstallAction" = "3:4"
-            "Arguments" = "8:/Uninstall"
+            "Arguments" = "8:-cuunmnt"
             "EntryPoint" = "8:"
             "Sequence" = "3:2"
             "Identifier" = "8:_EDF1485D_1D3D_4528_8569_8D3896146426"
@@ -527,11 +527,6 @@
             "AssemblyAsmDisplayName" = "8:SupportFile, Version=2.0.83.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_75205BA09AD1466DB1FFC967318AFAFB"
-                    {
-                    "Name" = "8:SupportFile.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:SupportFile.dll"
             "TargetName" = "8:"
@@ -651,11 +646,6 @@
             "AssemblyAsmDisplayName" = "8:SupportFile, Version=2.0.83.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_A6C4E9121F206AFC7E8F4E30DC0537D9"
-                    {
-                    "Name" = "8:SupportFile.DLL"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:SupportFile.DLL"
             "TargetName" = "8:"
@@ -722,11 +712,6 @@
             "AssemblyAsmDisplayName" = "8:MezeoFile, Version=2.0.83.0, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
-                    "_DFF7F401643C436EB485570961CD88CC"
-                    {
-                    "Name" = "8:MezeoFile.exe"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:MezeoFile.exe"
             "TargetName" = "8:"

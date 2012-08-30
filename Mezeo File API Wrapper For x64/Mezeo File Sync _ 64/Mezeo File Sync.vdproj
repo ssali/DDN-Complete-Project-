@@ -130,37 +130,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7534F32F1B53476FAA72264608D6113B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FA21352476DC429C462D136BAAFECD70"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_91E21AF8E0BF901815C2ABD596CFE789"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0C1AF26A1E623C3678287C2A649BD552"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F0D1BC1CA156BF2AC6CA5C9F28F17373"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E66B53928F3AEA50BBBDD301CEA24A14"
+        "OwnerKey" = "8:_0C381535521C4DF2939A9E4CC4B67A49"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -172,7 +142,37 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0C381535521C4DF2939A9E4CC4B67A49"
+        "OwnerKey" = "8:_E66B53928F3AEA50BBBDD301CEA24A14"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_F0D1BC1CA156BF2AC6CA5C9F28F17373"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_0C1AF26A1E623C3678287C2A649BD552"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_91E21AF8E0BF901815C2ABD596CFE789"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_FA21352476DC429C462D136BAAFECD70"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_7534F32F1B53476FAA72264608D6113B"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -264,7 +264,7 @@
             "Object" = "8:_3348C8B5297E44F98D3B5F6E2FB6E8FF"
             "FileType" = "3:2"
             "InstallAction" = "3:4"
-            "Arguments" = "8:/Uninstall"
+            "Arguments" = "8:-tcsmnt"
             "EntryPoint" = "8:"
             "Sequence" = "3:2"
             "Identifier" = "8:_39E77EF3_5882_49DC_B763_3A413589AD90"
@@ -278,7 +278,7 @@
             "Object" = "8:_3348C8B5297E44F98D3B5F6E2FB6E8FF"
             "FileType" = "3:2"
             "InstallAction" = "3:4"
-            "Arguments" = "8:/Uninstall"
+            "Arguments" = "8:-cuunmnt"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
             "Identifier" = "8:_2D912434_B0BC_4D2C_87E9_F162C0A874BB"
@@ -497,11 +497,6 @@
             "AssemblyAsmDisplayName" = "8:SupportFile, Version=2.0.83.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_67EA328AEF064EFCBFB28C52F2C7E133"
-                    {
-                    "Name" = "8:SupportFile.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:SupportFile.dll"
             "TargetName" = "8:"
@@ -568,11 +563,6 @@
             "AssemblyAsmDisplayName" = "8:MezeoFile, Version=2.0.83.0, Culture=neutral, processorArchitecture=AMD64"
                 "ScatterAssemblies"
                 {
-                    "_7534F32F1B53476FAA72264608D6113B"
-                    {
-                    "Name" = "8:MezeoFile.exe"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:MezeoFile.exe"
             "TargetName" = "8:"
@@ -630,11 +620,6 @@
             "AssemblyAsmDisplayName" = "8:SupportFile, Version=2.0.83.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_91E21AF8E0BF901815C2ABD596CFE789"
-                    {
-                    "Name" = "8:SupportFile.DLL"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:SupportFile.DLL"
             "TargetName" = "8:"
